@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Cuprum:wght@600&family=Heebo:wght@900&family=Pacifico&family=Ubuntu+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+  
+}
+
+.main {
+    background-image: url(/assets/images/my.jpg);
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 110vh;
+    position: relative;
+
+    
+    
+}
+
+.main .boxi {
+    background-color: black;
+    height: 100%;
+    opacity: 0.7;
+    position: absolute;
+    width: 100%;
+    
+}
+.box{
+    position: relative;
+    z-index: 10;
+}
+
+
+nav {
+    max-width: 75vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 0px;
+    position: relative;
+    z-index: 10;
+
+}
+nav img{
+    position: relative;
+    z-index: 10;
+
+}
+nav button {
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 7px 20px;
+    position: relative;
+    z-index: 10;
+
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+nav button a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.sec {
+    color: white;
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+    margin-top: 200px;
+    /* position: relative;
+    z-index: 20; */
+
+}
+
+.sec .a {
+    font-size: 3rem;
+    /* position: relative;
+    z-index: 20; */
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sec .b {
+    position: relative;
+    z-index: 20;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5px;
+
+}
+
+.sec .c {
+    /* position: relative;
+    z-index: 20; */
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+}
+
+.sec input {
+    padding: 10px 15px;
+    border: .1px solid white;
+    border-radius: 5px;
+    margin-top: 25px;
+    background-color: black;
+
+    color: white;
+}
+
+.sec input:placeholder-shown {
+    font-size: 1.5rem;
+    font-display: white;
+    position: relative;
+}
+
+.sec button {
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    height: 50px;
+    width: 180px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+
+.sepration {
+    height: 7px;
+    background-color: rgb(56, 56, 56);
+    position: relative;
+    z-index: 30;
+}
+
+.all{
+    height: 510px;
+    width: 74vw;
+    margin: auto;
+}
+
+
+section .container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 48px;
+}
+
+section div>.txt {
+    color: white;
+    width: 600px;
+}
+
+section .txt :first-child {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+section .txt :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 15px 10px;
+}
+section .img{
+    position: relative;
+}
+
+section .img img {
+    width: 35vw;
+    position: relative;
+    z-index: 10;
+}
+
+section .img video {
+    width: 31vw;
+    position: absolute;
+    right: 0;
+    top: 32px;
+}
+
+.bb .spbox{
+    display: flex;
+    height: 16vh;
+    width:18vw;
+    border: 2px solid rgb(68, 68, 68);
+    position: relative;
+    left: 117px;
+    border-radius: 12px;
+    bottom: 132px;
+    z-index: 10;
+    background-color: black;
+}
+.cc .img video{
+    /* position: relative; */
+    top: 45px;
+}
+.spbox .spimg img{
+    width: 60px;
+    height: auto;
+    border-radius: 3px;
+}
+.spbox .spimg{
+   padding: 5px;
+   padding-left: 10px;
+   padding-top: 8px;
+}
+.sptxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sptxt :first-child{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.sptxt :nth-child(2){
+    color: #0071eb;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.default-ltr-cache-1q4up1i {
+    width: 3rem;
+    height: 3rem;
+    outline: 2px solid rgb(0,0,0);
+    outline-offset: -2px;
+    display: block;
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) center center no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    content: '';
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    padding-top: 52px;
+    padding-left: 10px;
+}
+.faq .faqbox{
+    width: 70vw;
+    margin: auto;
+    background-color: rgb(45,45,45);
+    height: 80px;
+    margin-bottom: 8px;
+}
+.faqheading h1{
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;   
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.faq .faqbox{
+    padding: 2px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    transition-duration: 250ms;
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+}
+.faq .faqbox p{
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;  
+}
+.faq .faqbox svg{
+   filter: invert(1);
+} 
+.faqbox:hover{
+    cursor: pointer;
+    background-color:rgb(65, 64, 64) ;
+}
+.faqem{
+    padding-top: 50px;
+    width: 70vw;
+    margin: auto;
+    padding-bottom: 60px;
+}
+.faqem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.faqem .emtxt{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.faqem input{
+    padding: 10px 15px;
+    border: .1px solid rgba(255, 255, 255, 0.247);
+    border-radius: 5px;
+    margin-top: 25px;
+    background-color: black;
+
+    color: white;
+}
+.faqem button{
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    height: 50px;
+    width: 180px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    border-radius: 5px;
+    margin: 0px 5px;
+}
+.faqem input:placeholder-shown {
+    font-size: 1.5rem;
+    font-display: white;
+    position: relative;
+}
+#b1{
+    background-color: #0071eb;
+}
